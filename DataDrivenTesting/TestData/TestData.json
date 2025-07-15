@@ -1,0 +1,40 @@
+{
+  "Environment": [
+    {
+      "Execute": true,
+      "username": "qeUnderwriting@msiqe.com",
+      "password": "u6\"086tElR9V3p1qN29"
+    },
+    {
+      "Execute": false,
+      "username": "TestCase1-user2",
+      "password": "TestCase1-pass2"
+    }
+  ],
+
+  "HomeESH03BrokerBilledNewQuoteTest": [
+    {
+      "Execute": true,
+      "AgencyName": "MILLENNIAL SPECIALTY INS LLC DBA in California as MILLENNIAL INSURANCE AGENCY LLC",
+      "AgentName": "Bresha Coates",
+      "Street": "10122 W Pinnacle Peak Rd",
+      "City": "Peoria",
+      "Zipcode": "85383",
+      "FirstName": "Chethan",
+      "LastName": "Gowda",
+      "DOB": "07/01/1990",
+      "Email": "test@xyz.com",
+      "Contact": "9988776655",
+      "PaymentPlan": "Annual",
+      "YearBuilt": "2022",
+      "Occupancy": "Primary",
+      "RoofYear": "2022",
+      "Construction": "Frame",
+      "AgentLicense": "123456",
+      "CoverageA": "500000",
+      "CoverageB": "10%",
+      "CoverageC": "50%",
+      "CoverageD": "20%"
+    }
+  ]
+}

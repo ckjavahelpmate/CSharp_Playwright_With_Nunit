@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<!-- Browser Configuration -->
+	<!--<Playwright>
+		<BrowserName>chromium</BrowserName>
+		<LaunchOptions>
+			<Headless>false</Headless>
+			<Channel>chrome</Channel>
+		</LaunchOptions>
+	</Playwright>-->
+
+	<!-- Environment Specific Configuration -->
+	<TestRunParameters>
+		<Parameter name="ServiceAuthType" value="AccessToken" />
+		<Parameter name="url" value="https://testadmin.msimga.com/" />
+		<Parameter name="username" value="qeUnderwriting@msiqe.com" />
+		<Parameter name="password" value="u6&quot;086tElR9V3p1qN29" />
+		<Parameter name="testData" value="TestData.json" />
+	</TestRunParameters>
+
+	 <!--Nunit Configuration For Parallel Execution--> 
+	<NUnit>
+		<NumberOfTestWorkers>5</NumberOfTestWorkers>
+		<TestCaseTimeout>120000</TestCaseTimeout>
+	</NUnit>
+	
+</RunSettings>
