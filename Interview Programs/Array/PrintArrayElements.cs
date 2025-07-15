@@ -18,7 +18,7 @@ namespace Interview_Programs.Array
             int[] nums1 = { 1, 2, 4, 5, 2, 6 };
             int[] nums2 = { 4, 7, 3, 6, 8 };
 
-            PrintUniqueElementsOfArray(nums1, nums2);
+            //PrintUniqueElementsOfArray(nums1, nums2);
 
         }
 
