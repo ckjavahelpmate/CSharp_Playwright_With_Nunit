@@ -11,14 +11,14 @@ namespace Interview_Programs.Array
     {
         public static void Main(string[] args)
         {
-            int[] arr = { 1, 2, 1, 3, 1, 4, 5, 3, 4 };
+            int[] duplicates = { 1, 2, 1, 3, 1, 4, 5, 3, 4 };
             int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             int[] palindroms = { 101, 223, 333, 4054, 5005, 64, 777, 128, 45954 };
 
             int[] nums1 = { 1, 2, 4, 5, 2, 6 };
             int[] nums2 = { 4, 7, 3, 6, 8 };
 
-            //PrintUniqueElementsOfArray(nums1, nums2);
+            PrintUniqueElementsOfArray(nums1, nums2);
 
         }
 
