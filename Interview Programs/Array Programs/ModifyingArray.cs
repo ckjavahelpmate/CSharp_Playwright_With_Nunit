@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Interview_Programs.Array
+namespace Interview_Programs.Array_Programs
 {
     internal class ModifyingArray
     {
