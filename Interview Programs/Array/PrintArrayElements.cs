@@ -18,8 +18,22 @@ namespace Interview_Programs.Array
             int[] nums1 = { 1, 2, 4, 5, 2, 6 };
             int[] nums2 = { 4, 7, 3, 6, 8 };
 
-            PrintUniqueElementsOfArray(nums1, nums2);
+            int[] missingNumber = { 1, 3, 6, 7, 9, 11, 12, 15 };
 
+            PrintMissingNumber(missingNumber);
+
+        }
+
+        // Print Missing numbers in sorted array
+        public static  void PrintMissingNumber(int[] arr)
+        {
+            for(int i=0; i<arr.Length-1; i++)
+            {
+                for(int j = arr[i]+1 ; j < arr[i+1]; j++ )
+                {
+                    Console.WriteLine( j );
+                }
+            }
         }
 
         //Print Unique elements in 2 array

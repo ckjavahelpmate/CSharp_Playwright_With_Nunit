@@ -6,7 +6,7 @@
     <RootNamespace>Interview_Programs</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Interview_Programs.Array.ModifyingArray</StartupObject>
+    <StartupObject>Interview_Programs.Array.PrintArrayElements</StartupObject>
   </PropertyGroup>
 
 </Project>
